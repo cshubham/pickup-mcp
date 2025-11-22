@@ -7,7 +7,7 @@ A personalized Model Context Protocol (MCP) server that provides romantic and fu
 - 🎭 **Multiple Types**: Flirt, Casual, Smooth, Wholesome
 - 🎨 **Various Moods**: Romantic, Playful, Confident, Nerdy, Funny, Sweet, Clever, Friendly, and Genuine
 - 🎲 **Random Selection**: Get a different pickup line each time
-- 💬 **Personalized Greetings**: Every response starts with "Hello romantic Shubham!"
+- 💬 **Personalized Greetings**: Customizable name support (defaults to "Hello Romantic user!")
 - 📚 **Extensive Database**: Over 100 curated pickup lines
 
 ## Available Options
@@ -23,7 +23,7 @@ A personalized Model Context Protocol (MCP) server that provides romantic and fu
 
 1. Clone or navigate to this repository:
 ```bash
-cd /Users/sc432t/Documents/TestProjects/hello-mcp
+cd /Users/sc432t/Documents/TestProjects/pickup-mcp
 ```
 
 2. Install dependencies (if not already done):
@@ -64,7 +64,7 @@ Open the `cline_mcp_settings.json` file and add your server configuration:
     "romantic-shubham": {
       "command": "node",
       "args": [
-        "/Users/sc432t/Documents/TestProjects/hello-mcp/index.js"
+        "/Users/sc432t/Documents/TestProjects/pickup-mcp/index.js"
       ],
       "disabled": false,
       "alwaysAllow": []
@@ -73,7 +73,7 @@ Open the `cline_mcp_settings.json` file and add your server configuration:
 }
 ```
 
-**Important**: Replace `/Users/sc432t/Documents/TestProjects/hello-mcp/index.js` with the absolute path to your `index.js` file.
+**Important**: Replace `/Users/sc432t/Documents/TestProjects/pickup-mcp/index.js` with the absolute path to your `index.js` file.
 
 #### Step 3: Restart Cursor
 
@@ -101,10 +101,13 @@ Get a personalized pickup line with optional parameters.
 **Parameters:**
 - `type` (optional): "flirt", "casual", "smooth", or "wholesome" (default: "flirt")
 - `mood` (optional): varies by type (default: "romantic")
+- `name` (optional): Your name for personalized greeting (default: "user")
 
-**Example:**
+**Examples:**
 ```
 Get me a casual/funny pickup line
+Get me a pickup line for Shubham
+Give me a romantic pickup line for Sarah
 ```
 
 ### 2. `list_available_moods`
@@ -121,25 +124,25 @@ Show me all available pickup line moods
 
 **Response**: 
 ```
-Hello romantic Shubham! 💝
+Hello Romantic user! 💝
 
 Are you a magician? Because whenever I look at you, everyone else disappears.
 ```
 
-**User**: "Give me a nerdy flirt pickup line"
+**User**: "Give me a nerdy flirt pickup line for Shubham"
 
 **Response**:
 ```
-Hello romantic Shubham! 💝
+Hello Romantic Shubham! 💝
 
 Are you made of copper and tellurium? Because you're Cu-Te.
 ```
 
-**User**: "Get me something wholesome and sweet"
+**User**: "Get me something wholesome and sweet for Sarah"
 
 **Response**:
 ```
-Hello romantic Shubham! 💝
+Hello Romantic Sarah! 💝
 
 You have the kind of smile that could brighten anyone's day.
 ```

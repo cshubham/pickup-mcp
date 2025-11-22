@@ -72,6 +72,10 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
               type: "string",
               description: "Mood/style of the pickup line. Options vary by type. For 'flirt': romantic, playful, confident, nerdy. For 'casual': friendly, funny, sweet, clever. For 'smooth': romantic, confident. For 'wholesome': sweet, genuine. Default: 'romantic'",
             },
+            name: {
+              type: "string",
+              description: "The user's name for personalization. If provided, the greeting will use this name. Default: 'user'",
+            },
           },
         },
       },
@@ -94,9 +98,10 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   if (name === "get_pickup_line") {
     const type = args.type || 'flirt';
     const mood = args.mood || 'romantic';
+    const userName = args.name || 'user';
     
     const pickupLine = getRandomPickupLine(type, mood);
-    const greeting = `Hello romantic Shubham! 💝`;
+    const greeting = `Hello Romantic ${userName}! 💝`;
     const response = `${greeting}\n\n${pickupLine}`;
     
     return {

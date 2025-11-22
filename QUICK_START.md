@@ -5,7 +5,7 @@ Get your Romantic Shubham MCP server running in Cursor in 3 easy steps!
 ## Step 1: Run the Setup Script
 
 ```bash
-cd /Users/sc432t/Documents/TestProjects/hello-mcp
+cd /Users/sc432t/Documents/TestProjects/pickup-mcp
 ./setup-cursor.sh
 ```
 
@@ -28,7 +28,7 @@ Can you use the romantic-shubham MCP to get me a pickup line?
 
 You should see:
 ```
-Hello romantic Shubham! 💝
+Hello Romantic user! 💝
 
 [Your pickup line here]
 ```
@@ -58,6 +58,15 @@ Show me a wholesome/sweet pickup line
 List all available moods from romantic-shubham
 ```
 
+### Get a personalized pickup line with your name
+```
+Get me a pickup line for Shubham
+```
+
+```
+Give me a romantic pickup line for Sarah
+```
+
 ## Available Combinations
 
 | Type | Moods |
@@ -73,7 +82,7 @@ List all available moods from romantic-shubham
 
 1. **Test the server:**
    ```bash
-   cd /Users/sc432t/Documents/TestProjects/hello-mcp
+   cd /Users/sc432t/Documents/TestProjects/pickup-mcp
    node test-server.js
    ```
 
@@ -90,7 +99,7 @@ List all available moods from romantic-shubham
 
 - 📚 **120 pickup lines** across 4 types and 10 moods
 - 🎲 **Random selection** for variety
-- 💝 **Personalized greeting** every time
+- 💝 **Personalized greeting** with customizable name support
 - 🎯 **Easy customization** (edit `pickup-lines.json`)
 
 ---

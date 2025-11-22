@@ -45,7 +45,7 @@ If the file doesn't exist or is empty, create it with this content:
     "romantic-shubham": {
       "command": "node",
       "args": [
-        "/Users/sc432t/Documents/TestProjects/hello-mcp/index.js"
+        "/Users/sc432t/Documents/TestProjects/pickup-mcp/index.js"
       ],
       "disabled": false,
       "alwaysAllow": []
@@ -66,7 +66,7 @@ If the file already has other MCP servers, just add your server to the `mcpServe
     "romantic-shubham": {
       "command": "node",
       "args": [
-        "/Users/sc432t/Documents/TestProjects/hello-mcp/index.js"
+        "/Users/sc432t/Documents/TestProjects/pickup-mcp/index.js"
       ],
       "disabled": false,
       "alwaysAllow": []
@@ -77,7 +77,7 @@ If the file already has other MCP servers, just add your server to the `mcpServe
 
 ### 4. Verify the Path
 
-Make sure the path `/Users/sc432t/Documents/TestProjects/hello-mcp/index.js` is correct. This should be the absolute path to your `index.js` file.
+Make sure the path `/Users/sc432t/Documents/TestProjects/pickup-mcp/index.js` is correct. This should be the absolute path to your `index.js` file.
 
 ### 5. Restart Cursor
 
@@ -98,7 +98,19 @@ Can you use the romantic-shubham MCP to get me a pickup line?
 
 Expected response:
 ```
-Hello romantic Shubham! 💝
+Hello Romantic user! 💝
+
+[A romantic pickup line will appear here]
+```
+
+Or with a custom name:
+```
+Get me a pickup line for Shubham
+```
+
+Expected response:
+```
+Hello Romantic Shubham! 💝
 
 [A romantic pickup line will appear here]
 ```
@@ -132,18 +144,18 @@ Show me a smooth/confident pickup line
 
 **Solution 1**: Check the file path
 ```bash
-ls -la /Users/sc432t/Documents/TestProjects/hello-mcp/index.js
+ls -la /Users/sc432t/Documents/TestProjects/pickup-mcp/index.js
 ```
 This should show the file. If not, update the path in your config.
 
 **Solution 2**: Verify the file is executable
 ```bash
-chmod +x /Users/sc432t/Documents/TestProjects/hello-mcp/index.js
+chmod +x /Users/sc432t/Documents/TestProjects/pickup-mcp/index.js
 ```
 
 **Solution 3**: Test the server manually
 ```bash
-cd /Users/sc432t/Documents/TestProjects/hello-mcp
+cd /Users/sc432t/Documents/TestProjects/pickup-mcp
 node index.js
 ```
 You should see: "Romantic Shubham MCP Server running on stdio"
@@ -200,7 +212,7 @@ which node
 If you want to use the MCP server from anywhere, you can install it globally:
 
 ```bash
-cd /Users/sc432t/Documents/TestProjects/hello-mcp
+cd /Users/sc432t/Documents/TestProjects/pickup-mcp
 npm link
 ```
 
@@ -235,7 +247,8 @@ Once everything is working, you can:
 - Ask for pickup lines whenever you need them
 - Specify different types: flirt, casual, smooth, wholesome
 - Choose different moods within each type
-- Get a personalized "Hello romantic Shubham!" greeting every time
+- Customize the greeting with your name (defaults to "Hello Romantic user!")
+- Get personalized greetings like "Hello Romantic Shubham!" by specifying a name
 
 Enjoy your personalized MCP server! 💝✨
 
