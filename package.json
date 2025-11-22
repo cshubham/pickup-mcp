@@ -1,0 +1,33 @@
+{
+  "name": "romantic-shubham-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A personalized MCP server that provides romantic pickup lines with different moods and types",
+  "main": "index.js",
+  "bin": {
+    "romantic-shubham-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cshubham/hello-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "pickup-lines",
+    "romantic",
+    "model-context-protocol"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cshubham/hello-mcp/issues"
+  },
+  "homepage": "https://github.com/cshubham/hello-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0"
+  }
+}

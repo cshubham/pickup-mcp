@@ -1,0 +1,155 @@
+{
+  "flirt": {
+    "romantic": [
+      "Are you a magician? Because whenever I look at you, everyone else disappears.",
+      "Do you have a map? I keep getting lost in your eyes.",
+      "If I could rearrange the alphabet, I'd put U and I together.",
+      "Are you a time traveler? Because I see you in my future.",
+      "Do you believe in love at first sight, or should I walk by again?",
+      "Is your name Google? Because you have everything I've been searching for.",
+      "Are you a camera? Because every time I look at you, I smile.",
+      "If beauty were time, you'd be an eternity.",
+      "Do you have a Band-Aid? Because I just scraped my knee falling for you.",
+      "Can I follow you home? Cause my parents always told me to follow my dreams."
+    ],
+    "playful": [
+      "Are you a parking ticket? Because you've got FINE written all over you.",
+      "Do you have a sunburn, or are you always this hot?",
+      "Are you a WiFi signal? Because I'm feeling a connection.",
+      "Is your dad a boxer? Because you're a knockout!",
+      "Do you like Star Wars? Because Yoda one for me!",
+      "Are you French? Because Eiffel for you.",
+      "Do you work at Starbucks? Because I like you a latte.",
+      "Are you a 45-degree angle? Because you're acute-y.",
+      "Do you have a pencil? Because I want to erase your past and write our future.",
+      "Is your name Chapstick? Because you're da balm!"
+    ],
+    "confident": [
+      "I'm not a photographer, but I can picture us together.",
+      "Aside from being gorgeous, what do you do for a living?",
+      "I seem to have lost my phone number. Can I have yours?",
+      "I'd say God bless you, but it looks like he already did.",
+      "Do you have a moment to sign my petition to make our first date a national holiday?",
+      "I was blinded by your beauty; I'm going to need your name and number for insurance purposes.",
+      "I'm learning about important dates in history. Wanna be one of them?",
+      "Are you a bank loan? Because you have my interest.",
+      "Your hand looks heavy—can I hold it for you?",
+      "I must be a snowflake, because I've fallen for you."
+    ],
+    "nerdy": [
+      "Are you made of copper and tellurium? Because you're Cu-Te.",
+      "If you were a triangle, you'd be acute one.",
+      "Are you a keyboard? Because you're just my type.",
+      "You must be the square root of 2, because I feel irrational around you.",
+      "Are you a carbon sample? Because I want to date you.",
+      "You're like a dictionary—you add meaning to my life.",
+      "Are you a compiler? Because you make my code run.",
+      "Do you like science? Because I've got my ion you.",
+      "Are you a 404 error? Because I've been searching for you everywhere.",
+      "You must be a computer keyboard, because you're just my type."
+    ]
+  },
+  "casual": {
+    "friendly": [
+      "Hey, I just realized we haven't met yet. I'm fixing that now.",
+      "You seem like an interesting person. Mind if I join you?",
+      "I couldn't help but notice your smile from across the room.",
+      "This might sound random, but you have great taste in [something they're wearing/doing].",
+      "I'm usually shy, but I felt like I had to come say hi.",
+      "I promised myself I'd talk to the most interesting-looking person here. That's you.",
+      "Quick question: what's your opinion on [current topic]?",
+      "You look like you'd give great book/movie recommendations.",
+      "I was about to leave, but then I saw you and thought I should introduce myself.",
+      "Your energy is amazing. I had to come over and meet you."
+    ],
+    "funny": [
+      "Are you a beaver? Because daaaaam!",
+      "Did you just come out of the oven? Because you're hot!",
+      "Are you a banana? Because I find you a-peeling.",
+      "Do you believe in fate? Because I think we've just met by mistake... wait, I meant 'mate'!",
+      "Are you a volcano? Because I lava you!",
+      "If you were a vegetable, you'd be a cute-cumber.",
+      "Are you a cat? Because you're purr-fect.",
+      "I'm no mathematician, but I'm pretty good with numbers. How about you give me yours?",
+      "Do you play soccer? Because you're a keeper!",
+      "Are you Australian? Because you meet all of my koala-fications."
+    ],
+    "sweet": [
+      "I think there's something wrong with my eyes. I can't take them off you.",
+      "You know what's beautiful? Read the first word again.",
+      "I'm not trying to impress you or anything, but... I'm Batman!",
+      "Excuse me, but I think you dropped something: MY JAW!",
+      "Life without you would be like a broken pencil... pointless.",
+      "If looks could kill, you'd be a weapon of mass destruction.",
+      "You're so beautiful that you made me forget my pickup line.",
+      "I would never play hide and seek with you because someone like you is impossible to find.",
+      "Can you take me to the doctor? Because I just broke my leg falling for you.",
+      "There's only one thing I want to change about you, and that's your last name."
+    ],
+    "clever": [
+      "I'm writing a term paper on the finer things in life, and I was wondering if I could interview you.",
+      "I'd like to take you to the movies, but they don't let you bring in your own snacks.",
+      "Do you have any raisins? No? How about a date?",
+      "I'm not a hoarder but I really want to keep you forever.",
+      "Are you my appendix? Because I don't understand how you work but this feeling in my stomach makes me want to take you out.",
+      "I'm no organ donor but I'd be happy to give you my heart.",
+      "I ought to complain to Spotify for you not being named this week's hottest single.",
+      "Are you a loan? Because you've got my interest.",
+      "I'm not usually religious, but when I saw you, I knew you were the answer to my prayers.",
+      "On a scale of 1 to 10, you're a 9 and I'm the 1 you need."
+    ]
+  },
+  "smooth": {
+    "romantic": [
+      "The only thing your eyes haven't told me is your name.",
+      "I don't need Twitter—I'm already following you.",
+      "Roses are red, violets are blue, how did I get so lucky to match with you?",
+      "I'm not usually into online dating, but I'd make an exception for you.",
+      "You're like my favorite song—I could listen to you all day long.",
+      "I think the gap between my fingers were meant for yours.",
+      "Your lips look lonely. Would they like to meet mine?",
+      "Kiss me if I'm wrong, but dinosaurs still exist, right?",
+      "I don't know which is prettier today—the weather, or your eyes.",
+      "I was feeling off today, but you definitely turned me on."
+    ],
+    "confident": [
+      "Let's play a game. Winner takes the loser out to dinner.",
+      "I know this is forward, but you seem like someone I should get to know.",
+      "I usually don't approach people like this, but there's something about you.",
+      "I have a feeling we're going to have an amazing conversation.",
+      "I don't normally do this, but I'd regret it if I didn't come talk to you.",
+      "Something tells me you're the type of person who makes everything more fun.",
+      "I have a sixth sense, and it's telling me we should grab coffee sometime.",
+      "I'm going to be honest—I came over here because you're stunning.",
+      "Let me guess: you're used to people being speechless around you?",
+      "I have a really good feeling about us. Coffee to test my intuition?"
+    ]
+  },
+  "wholesome": {
+    "sweet": [
+      "I'm not great at small talk, but I'd love to have a big conversation with you.",
+      "You have the kind of smile that could brighten anyone's day.",
+      "I don't know you yet, but I have a feeling you're pretty amazing.",
+      "I'm usually not this bold, but I wanted to meet the person behind that wonderful smile.",
+      "You seem like the type of person who makes the world a better place.",
+      "I know we just met, but I already think you're pretty special.",
+      "Something about you tells me you have great stories to tell.",
+      "I believe in good vibes, and you're radiating them.",
+      "Meeting you feels like finding a four-leaf clover.",
+      "You look like someone who makes every day an adventure."
+    ],
+    "genuine": [
+      "Hi, I'm [Shubham]. I noticed you and wanted to introduce myself properly.",
+      "I love your [specific compliment about something genuine]. It really caught my attention.",
+      "You have really positive energy. I'd love to get to know you better.",
+      "I appreciate people who [observed quality], and you seem to embody that.",
+      "Something about the way you [specific action] made me want to come say hello.",
+      "I'm drawn to genuine people, and you seem like one of them.",
+      "You seem interesting, and I'd regret not introducing myself.",
+      "I wanted to meet you because you seem like someone worth knowing.",
+      "I value meaningful connections, and I have a feeling we could have one.",
+      "You caught my attention, and I wanted to see if we click."
+    ]
+  }
+}
+
